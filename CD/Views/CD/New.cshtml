@@ -1,0 +1,8 @@
+<h1>Add a new Album to @Model.GetName()</h1>
+
+<form action='/artist/@Model.GetId()/allCD' method='post'>
+  <input id='artistId' name='artistId' type='hidden' value='@Model.GetId()'>
+  <label for='albumName'>Album Name</label>
+  <input id='albumName' name='albumName' type='text'>
+  <button type='submit'>Add Album!</button>
+</form>
